@@ -47,11 +47,9 @@ body {
 
 .subtext {
   max-width: 500px;
-
   margin: 0 0 30px;
 
   color: #777777;
-
   font-size: 0.95rem;
 }
 
@@ -61,13 +59,11 @@ body {
 
   display: flex;
   flex-direction: column;
-
   gap: 12px;
 }
 
 .email-form input {
   width: 100%;
-
   padding: 14px;
 
   border: 1px solid #dddddd;
@@ -78,7 +74,6 @@ body {
 
 .email-form button {
   width: 100%;
-
   padding: 14px 20px;
 
   background: #c8a04d;
@@ -91,10 +86,25 @@ body {
   font-size: 16px;
 
   cursor: pointer;
-
   transition: 0.2s ease;
 }
 
 .email-form button:hover {
   background: #b08d42;
+}
+
+.demo-link {
+  margin-top: 18px;
+  display: inline-block;
+
+  color: #111111;
+  font-weight: 800;
+  text-decoration: none;
+
+  border-bottom: 2px solid #c8a04d;
+  padding-bottom: 4px;
+}
+
+.demo-link:hover {
+  color: #c8a04d;
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeStand</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <img src="logo.png" alt="HomeStand Logo" class="logo">
+
+    <p class="coming-soon">COMING SOON</p>
+
+    <p class="description">
+      Helping athletic programs build community, grow sponsorships, and connect with fans.
+    </p>
+
+    <p class="subtext">
+      Join coaches, athletic directors, and booster clubs interested in early access.
+    </p>
+
+    <form
+      class="email-form"
+      action="https://formspree.io/f/xlgkkvog"
+      method="POST"
+    >
+
+      <input
+        type="hidden"
+        name="_next"
+        value="thank-you.html"
+      >
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        required
+      >
+
+      <input
+        type="text"
+        name="school"
+        placeholder="School / Organization"
+        required
+      >
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required
+      >
+
+      <button type="submit">
+        Request a Demo
+      </button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
